@@ -7,8 +7,8 @@ This project compares two machine learning models for binary classification usin
 **1. Neural Network (Keras)**
 
 - Normalized numerical features and one-hot encoded categorical features.
-- Trained a neural network with 16 and 6 hidden neurons.
-- Both configurations achieved 84.75% test accuracy, with the smaller model achieving a lower test loss.
+- Trained a neural network with 6 hidden neurons.
+- This configurations achieved 84.75% test accuracy.
 
 **2. Logistic Regression (scikit-learn)**
 
@@ -19,7 +19,6 @@ This project compares two machine learning models for binary classification usin
 
 | Model | Test Accuracy |
 |---|---:|
-| Neural Network (16 neurons) | 84.75% |
 | Neural Network (6 neurons) | 84.75% |
 | Logistic Regression | 86.44% |
 
